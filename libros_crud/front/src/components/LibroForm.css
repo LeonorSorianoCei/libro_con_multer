@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada:wght@400;700&display=swap');
+
+.Galada-font {
+  font-family: 'Galada', sans-serif;
+  font-size: 22px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilos para el formulario */
+.main-form {
+  margin-bottom: 20px;
+}
+
+/* Estilos para los input y textarea */
+.input-control {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Estilos para los botones */
+.button {
+  background-color: #ffd1dc;
+  color: #824b33;
+  font-family: 'Great Vibes', cursive;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #ffe6ee;
+}

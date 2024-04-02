@@ -1,0 +1,89 @@
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: #111251;
+}
+
+.Header-ul li a {
+    text-decoration: none;
+    color: #37efc1;
+    
+    font-size: 30px;
+     /* Utiliza Lobster como fuente principal y sans-serif como respaldo */
+}
+.Header-ul li a:hover {
+    color: #25e01e; /* Cambia el color del texto al pasar el cursor */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.4); /* Agrega una sombra al texto */
+}
+
+
+
+.Header-ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.Header-btn {
+    display: none;
+}
+
+.Logo{
+    width: 15%;
+    }
+
+
+@media (max-width: 840px) {
+    .Logo{
+        width: 20%;
+        }    
+}
+
+@media (max-width: 600px) {
+    .Header-nav {
+        display: none;
+    }
+
+    .Header-nav.isVisible {
+        display: block;
+    }
+
+    .Header-btn {
+        display: block;
+    }
+
+    .Header-ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:flex-end;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    li{
+        border-bottom: 3px solid #824b33;; 
+        margin-bottom: 10px; 
+    }
+
+    .Header{
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .Logo{
+        width: 35%;
+        }
+}
+
+.Header-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: #5121c8;
+    cursor: pointer;
+}
+

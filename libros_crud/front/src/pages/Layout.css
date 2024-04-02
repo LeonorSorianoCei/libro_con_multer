@@ -1,0 +1,22 @@
+.content{
+background-color: #824b3392;
+background-size: cover; /* Para cubrir todo el área */
+background-position: center; /* Centrar la imagen */
+background-repeat: no-repeat; /* Evitar la repetición */
+}
+
+.footer{
+    padding: 20px 20px;
+    background-color: #0e073a;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.twitter-icon, .facebook-icon, .instagram-icon {
+    color: #824b33; 
+}
+
